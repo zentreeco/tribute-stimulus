@@ -1,0 +1,21 @@
+{
+  "name": "tribute-stimulus",
+  "version": "1.0.3",
+  "description": "StimulusJS Library for TributeJS",
+  "main": "index.js",
+  "repository": "https://github.com/zentreeco/tribute-stimulus",
+  "author": "ZenTree <info@zentree.me>",
+  "license": "MIT",
+  "dependencies": {
+    "stimulus": "^1.1.1",
+    "tributejs": "^4.1.1",
+    "trix": "^1.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "scripts": {
+    "build": "microbundle build",
+    "dev": "microbundle watch"
+  }
+}
